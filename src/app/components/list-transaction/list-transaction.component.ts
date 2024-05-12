@@ -12,7 +12,8 @@ export class ListTransactionComponent {
       amount: 100,
       description: 'Venda de iphone',
       id: 1,
-      type: 'incoming'
+      type: 'incoming',
+      created_at: new Date()
     }
   ];
 
