@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Transaction } from '../../models/transaction.interface';
 import { SupabaseIntegration } from 'src/app/integrations/supabase.integration';
 import { RealtimeChannel } from '@supabase/supabase-js';
+import { TransactionPipe } from 'src/app/helpers/transaction.pipe';
 
 @Component({
   selector: 'app-list-transaction',
